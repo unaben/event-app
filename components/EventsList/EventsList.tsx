@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, Suspense } from "react";;
+import { useEffect } from "react";
 import { useApi } from "@/hooks";
 import EventCard from "../EventCard/EventCard";
 import type { IEventRes } from "@/types/event.types";
@@ -29,7 +29,7 @@ export default function EventsList() {
     },
   });
 
- useEffect(() => {
+  useEffect(() => {
     execute();
   }, [page, pageSize, search, title, type, execute]);
 
@@ -38,7 +38,7 @@ export default function EventsList() {
   if (!data?.data.length) return <p>No events found.</p>;
 
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <>
       <div className={styles.grid}>
         {data.data.map((event) => (
           <EventCard key={event.id} event={event} />
@@ -48,6 +48,6 @@ export default function EventsList() {
       <div style={{ marginTop: 16 }}>
         <Pagination page={data.page} totalPages={data.totalPages} />
       </div>
-    </Suspense>
+    </>
   );
 }

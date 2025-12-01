@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useState, Suspense } from "react";
+import { useCallback, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import styles from "./SearchFilters.module.css";
 import Link from "next/link";
@@ -33,7 +33,6 @@ export default function SearchFilters() {
   }, [router]);
 
   return (
-    <Suspense fallback={<div>Loading...</div>}>
       <div className={styles.filters}>
         <input
           className={styles.input}
@@ -75,6 +74,5 @@ export default function SearchFilters() {
           Create
         </Link>
       </div>
-    </Suspense>
   );
 }
