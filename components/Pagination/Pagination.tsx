@@ -1,7 +1,8 @@
 "use client";
 
-import styles from "./Pagination.module.css";
+import { Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
+import styles from "./Pagination.module.css";
 
 export default function Pagination({
   page,
@@ -20,24 +21,26 @@ export default function Pagination({
   };
 
   return (
-    <div className={styles.wrap}>
-      <button
-        onClick={() => go(page - 1)}
-        disabled={page <= 1}
-        className={styles.btn}
-      >
-        Prev
-      </button>
-      <div className={styles.info}>
-        Page {page} of {totalPages}
+    <Suspense fallback={<div>Loading...</div>}>
+      <div className={styles.wrap}>
+        <button
+          onClick={() => go(page - 1)}
+          disabled={page <= 1}
+          className={styles.btn}
+        >
+          Prev
+        </button>
+        <div className={styles.info}>
+          Page {page} of {totalPages}
+        </div>
+        <button
+          onClick={() => go(page + 1)}
+          disabled={page >= totalPages}
+          className={styles.btn}
+        >
+          Next
+        </button>
       </div>
-      <button
-        onClick={() => go(page + 1)}
-        disabled={page >= totalPages}
-        className={styles.btn}
-      >
-        Next
-      </button>
-    </div>
+    </Suspense>
   );
 }

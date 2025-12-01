@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useState } from "react";
+import { useCallback, useState, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import styles from "./SearchFilters.module.css";
 import Link from "next/link";
@@ -33,46 +33,48 @@ export default function SearchFilters() {
   }, [router]);
 
   return (
-    <div className={styles.filters}>
-      <input
-        className={styles.input}
-        placeholder="Title"
-        value={title}
-        onChange={(e) => setTitle(e.target.value)}
-      />
-      <input
-        className={styles.input}
-        placeholder="Creator"
-        value={creator}
-        onChange={(e) => setCreator(e.target.value)}
-      />
-      <input
-        className={styles.input}
-        placeholder="Location"
-        value={location}
-        onChange={(e) => setLocation(e.target.value)}
-      />
-      <select
-        className={styles.select}
-        value={type}
-        onChange={(e) => setType(e.target.value)}
-      >
-        <option value="">All types</option>
-        <option value="BEERS">Beers</option>
-        <option value="COCKTAILS">Cocktails</option>
-        <option value="COFFEES">Coffees</option>
-        <option value="MILKSHAKES">Milkshakes</option>
-      </select>
+    <Suspense fallback={<div>Loading...</div>}>
+      <div className={styles.filters}>
+        <input
+          className={styles.input}
+          placeholder="Title"
+          value={title}
+          onChange={(e) => setTitle(e.target.value)}
+        />
+        <input
+          className={styles.input}
+          placeholder="Creator"
+          value={creator}
+          onChange={(e) => setCreator(e.target.value)}
+        />
+        <input
+          className={styles.input}
+          placeholder="Location"
+          value={location}
+          onChange={(e) => setLocation(e.target.value)}
+        />
+        <select
+          className={styles.select}
+          value={type}
+          onChange={(e) => setType(e.target.value)}
+        >
+          <option value="">All types</option>
+          <option value="BEERS">Beers</option>
+          <option value="COCKTAILS">Cocktails</option>
+          <option value="COFFEES">Coffees</option>
+          <option value="MILKSHAKES">Milkshakes</option>
+        </select>
 
-      <button className={styles.button} onClick={apply}>
-        Apply
-      </button>
-      <button className={styles.buttonSecondary} onClick={clear}>
-        Clear
-      </button>
-      <Link href={"/events/create"} className={styles.link}>
-        Create
-      </Link>
-    </div>
+        <button className={styles.button} onClick={apply}>
+          Apply
+        </button>
+        <button className={styles.buttonSecondary} onClick={clear}>
+          Clear
+        </button>
+        <Link href={"/events/create"} className={styles.link}>
+          Create
+        </Link>
+      </div>
+    </Suspense>
   );
 }
