@@ -1,0 +1,25 @@
+.form {
+    background: #fff;
+    padding: 14px;
+    border-radius: 12px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+  }
+  
+  .form input, .form select {
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid #e6eef8;
+    width: 100%;
+  }
+  
+  .create {
+    background: #0b5fff;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  

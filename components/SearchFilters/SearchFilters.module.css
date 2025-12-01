@@ -1,0 +1,43 @@
+.filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .input {
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid #dbe3f0;
+    min-width: 160px;
+  }
+  
+  .select {
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid #dbe3f0;
+  }
+  
+  .button, .link {
+    background: #0b5fff;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .link {
+    text-decoration: none;
+  }
+  
+  .buttonSecondary {
+    background: transparent;
+    color: #0b5fff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #dbe3f0;
+    cursor: pointer;
+  }
+  

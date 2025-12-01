@@ -1,0 +1,714 @@
+[
+  {
+    "id": 1,
+    "time": "2025-03-10T18:30:00Z",
+    "title": "Friday Night Beers",
+    "creator": {
+      "name": "Alice Johnson",
+      "avatarUrl": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+    },
+    "guests": [
+      {
+        "name": "Mark Lee",
+        "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e"
+      },
+      {
+        "name": "Sandra Kim",
+        "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2"
+      }
+    ],
+    "type": "BEERS",
+    "location": {
+      "name": "The Hoppy Bar",
+      "latitude": 40.7412,
+      "longitude": -73.9896
+    },
+    "comments": [
+      {
+        "user": {
+          "name": "Mark Lee",
+          "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e"
+        },
+        "timestamp": "2025-03-09T12:00:00Z",
+        "message": "Can't wait!"
+      },
+      {
+        "user": {
+          "name": "Anonymous",
+          "avatarUrl": ""
+        },
+        "timestamp": "2025-11-28T01:48:44.561Z",
+        "message": "Looking for to this!!!"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "time": "2025-04-02T14:00:00Z",
+    "title": "Afternoon Coffee Hangout",
+    "creator": {
+      "name": "Brian Carter",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d"
+    },
+    "guests": [
+      {
+        "name": "Lisa Wong",
+        "avatarUrl": "https://images.unsplash.com/photo-1544725176-7c40e5a2c9f9"
+      },
+      {
+        "name": "Olivia Brown",
+        "avatarUrl": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+      }
+    ],
+    "type": "COFFEES",
+    "location": {
+      "name": "Brewed Awakening",
+      "latitude": 34.0522,
+      "longitude": -118.2437
+    },
+    "comments": [
+      {
+        "user": {
+          "name": "Lisa Wong",
+          "avatarUrl": "https://images.unsplash.com/photo-1544725176-7c40e5a2c9f9"
+        },
+        "timestamp": "2025-04-01T10:00:00Z",
+        "message": "Excited for this!"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "time": "2025-02-28T20:00:00Z",
+    "title": "Cocktail Late Night ",
+    "creator": {
+      "name": "Rachel Miller",
+      "avatarUrl": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+    },
+    "guests": [
+      {
+        "name": "Chris Adams",
+        "avatarUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce"
+      },
+      {
+        "name": "Emma West",
+        "avatarUrl": "https://images.unsplash.com/photo-1544725176-7c40e5a2c9f9"
+      },
+      {
+        "name": "Tom Harris",
+        "avatarUrl": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39"
+      }
+    ],
+    "type": "COCKTAILS",
+    "location": {
+      "name": "Moonlight Lounge",
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    },
+    "comments": [
+      {
+        "user": {
+          "name": "Chris Adams",
+          "avatarUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce"
+        },
+        "timestamp": "2025-02-27T18:11:00Z",
+        "message": "This will be great!"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "time": "2025-05-14T17:00:00Z",
+    "title": "Milkshake Meetup",
+    "creator": {
+      "name": "Daniel Ruiz",
+      "avatarUrl": "https://images.unsplash.com/photo-1527980965255-d3b416303d12"
+    },
+    "guests": [
+      {
+        "name": "Olivia Brown",
+        "avatarUrl": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+      },
+      {
+        "name": "Jacob Evans",
+        "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2"
+      }
+    ],
+    "type": "MILKSHAKES",
+    "location": {
+      "name": "Sweet Spot Cafe",
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    "comments": [
+      {
+        "user": {
+          "name": "Jacob Evans",
+          "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2"
+        },
+        "timestamp": "2025-05-13T08:45:00Z",
+        "message": "Milkshake time!"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "time": "2025-04-20T19:00:00Z",
+    "title": "Beers & Catching Up",
+    "creator": {
+      "name": "Tom Harris",
+      "avatarUrl": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39"
+    },
+    "guests": [
+      {
+        "name": "Aiden Wilson",
+        "avatarUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce"
+      },
+      {
+        "name": "Grace Porter",
+        "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb"
+      }
+    ],
+    "type": "BEERS",
+    "location": {
+      "name": "Old Town Brewery",
+      "latitude": 48.8566,
+      "longitude": 2.3522
+    },
+    "comments": [
+      {
+        "user": {
+          "name": "Grace Porter",
+          "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb"
+        },
+        "timestamp": "2025-04-19T20:00:00Z",
+        "message": "See you all there!"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "time": "2025-06-01T10:30:00Z",
+    "title": "Morning Coffee Group",
+    "creator": {
+      "name": "Elena Santiago",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb"
+    },
+    "guests": [
+      {
+        "name": "David Park",
+        "avatarUrl": "https://images.unsplash.com/photo-1511367461989-f85a21fda167"
+      },
+      {
+        "name": "Lisa Wong",
+        "avatarUrl": "https://images.unsplash.com/photo-1544725176-7c40e5a2c9f9"
+      }
+    ],
+    "type": "COFFEES",
+    "location": {
+      "name": "Roasted Bean House",
+      "latitude": 52.52,
+      "longitude": 13.405
+    },
+    "comments": [
+      {
+        "user": {
+          "name": "David Park",
+          "avatarUrl": "https://images.unsplash.com/photo-1511367461989-f85a21fda167"
+        },
+        "timestamp": "2025-05-31T09:00:00Z",
+        "message": "Early coffee wins!"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "time": "2025-05-18T21:00:00Z",
+    "title": "Rooftop Cocktails",
+    "creator": {
+      "name": "Megan Lee",
+      "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2"
+    },
+    "guests": [
+      {
+        "name": "Chris Adams",
+        "avatarUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce"
+      },
+      {
+        "name": "Mark Lee",
+        "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e"
+      }
+    ],
+    "type": "COCKTAILS",
+    "location": {
+      "name": "Skyline Bar",
+      "latitude": 41.8781,
+      "longitude": -87.6298
+    },
+    "comments": [
+      {
+        "user": {
+          "name": "Mark Lee",
+          "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e"
+        },
+        "timestamp": "2025-05-16T22:00:00Z",
+        "message": "Beautiful view incoming!"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "time": "2025-07-03T13:00:00Z",
+    "title": "Summer Milkshake Social",
+    "creator": {
+      "name": "Kevin Brooks",
+      "avatarUrl": "https://images.unsplash.com/photo-1527980965255-d3b416303d12"
+    },
+    "guests": [
+      {
+        "name": "Emma West",
+        "avatarUrl": "https://images.unsplash.com/photo-1544725176-7c40e5a2c9f9"
+      },
+      {
+        "name": "Hannah Lopez",
+        "avatarUrl": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+      }
+    ],
+    "type": "MILKSHAKES",
+    "location": {
+      "name": "Chill Swirl",
+      "latitude": 45.4215,
+      "longitude": -75.6972
+    },
+    "comments": [
+      {
+        "user": {
+          "name": "Emma West",
+          "avatarUrl": "https://images.unsplash.com/photo-1544725176-7c40e5a2c9f9"
+        },
+        "timestamp": "2025-07-02T12:30:00Z",
+        "message": "Summer vibes!"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "time": "2025-03-30T18:00:00Z",
+    "title": "Craft Beers Tasting",
+    "creator": {
+      "name": "Sophie Turner",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb"
+    },
+    "guests": [
+      {
+        "name": "Daniel Ruiz",
+        "avatarUrl": "https://images.unsplash.com/photo-1527980965255-d3b416303d12"
+      },
+      {
+        "name": "Mark Lee",
+        "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e"
+      }
+    ],
+    "type": "BEERS",
+    "location": {
+      "name": "Hop House",
+      "latitude": 55.9533,
+      "longitude": -3.1883
+    },
+    "comments": [
+      {
+        "user": {
+          "name": "Daniel Ruiz",
+          "avatarUrl": "https://images.unsplash.com/photo-1527980965255-d3b416303d12"
+        },
+        "timestamp": "2025-03-29T17:00:00Z",
+        "message": "Count me in!"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "time": "2025-01-15T15:00:00Z",
+    "title": "Winter Milkshake Meetup",
+    "creator": {
+      "name": "Jacob Evans",
+      "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2"
+    },
+    "guests": [
+      {
+        "name": "Mark Lee",
+        "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e"
+      },
+      {
+        "name": "Tom Harris",
+        "avatarUrl": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39"
+      }
+    ],
+    "type": "MILKSHAKES",
+    "location": {
+      "name": "Frosty Mug",
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    },
+    "comments": [
+      {
+        "user": {
+          "name": "Mark Lee",
+          "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e"
+        },
+        "timestamp": "2025-01-14T09:50:00Z",
+        "message": "Chilly treat time!"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "time": "2025-05-07T11:00:00Z",
+    "title": "Quick Coffee Catch-up",
+    "creator": {
+      "name": "Liam Chen",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d"
+    },
+    "guests": [
+      {
+        "name": "Grace Porter",
+        "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb"
+      },
+      {
+        "name": "Olivia Brown",
+        "avatarUrl": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+      }
+    ],
+    "type": "COFFEES",
+    "location": {
+      "name": "Downtown Espresso",
+      "latitude": 36.1699,
+      "longitude": -115.1398
+    },
+    "comments": [
+      {
+        "user": {
+          "name": "Grace Porter",
+          "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb"
+        },
+        "timestamp": "2025-05-06T09:15:00Z",
+        "message": "Perfect timing!"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "time": "2025-08-01T20:30:00Z",
+    "title": "Sunset Cocktails",
+    "creator": {
+      "name": "Hannah Lopez",
+      "avatarUrl": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+    },
+    "guests": [
+      {
+        "name": "Lucas Anderson",
+        "avatarUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce"
+      },
+      {
+        "name": "Emma West",
+        "avatarUrl": "https://images.unsplash.com/photo-1544725176-7c40e5a2c9f9"
+      }
+    ],
+    "type": "COCKTAILS",
+    "location": {
+      "name": "Golden Hour Lounge",
+      "latitude": 59.3293,
+      "longitude": 18.0686
+    },
+    "comments": [
+      {
+        "user": {
+          "name": "Lucas Anderson",
+          "avatarUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce"
+        },
+        "timestamp": "2025-07-30T11:10:00Z",
+        "message": "Can't wait for the sunset!"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "time": "2025-09-20T22:00:00Z",
+    "title": "Night Beers Gathering",
+    "creator": {
+      "name": "Aiden Wilson",
+      "avatarUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce"
+    },
+    "guests": [
+      {
+        "name": "Sophie Turner",
+        "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb"
+      },
+      {
+        "name": "Lisa Wong",
+        "avatarUrl": "https://images.unsplash.com/photo-1544725176-7c40e5a2c9f9"
+      }
+    ],
+    "type": "BEERS",
+    "location": {
+      "name": "Bar 89",
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    },
+    "comments": [
+      {
+        "user": {
+          "name": "Sophie Turner",
+          "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb"
+        },
+        "timestamp": "2025-09-18T13:20:00Z",
+        "message": "Night beers are the best."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "time": "2025-04-10T09:30:00Z",
+    "title": "Morning Latte Round",
+    "creator": {
+      "name": "Grace Porter",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb"
+    },
+    "guests": [
+      {
+        "name": "Olivia Brown",
+        "avatarUrl": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+      },
+      {
+        "name": "Brian Carter",
+        "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d"
+      }
+    ],
+    "type": "COFFEES",
+    "location": {
+      "name": "Cafe Amore",
+      "latitude": 55.7558,
+      "longitude": 37.6173
+    },
+    "comments": [
+      {
+        "user": {
+          "name": "Olivia Brown",
+          "avatarUrl": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+        },
+        "timestamp": "2025-04-09T07:10:00Z",
+        "message": "Love a morning latte!"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "time": "2025-06-25T19:30:00Z",
+    "title": "Cocktail Experiments Night",
+    "creator": {
+      "name": "Samuel Brooks",
+      "avatarUrl": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39"
+    },
+    "guests": [
+      {
+        "name": "Emma West",
+        "avatarUrl": "https://images.unsplash.com/photo-1544725176-7c40e5a2c9f9"
+      },
+      {
+        "name": "Megan Lee",
+        "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2"
+      }
+    ],
+    "type": "COCKTAILS",
+    "location": {
+      "name": "Alchemy Bar",
+      "latitude": 40.4168,
+      "longitude": -3.7038
+    },
+    "comments": [
+      {
+        "user": {
+          "name": "Megan Lee",
+          "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2"
+        },
+        "timestamp": "2025-06-24T18:45:00Z",
+        "message": "Excited for creative cocktails!"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "time": "2025-02-12T14:30:00Z",
+    "title": "Chocolate Milkshake Meetup",
+    "creator": {
+      "name": "Ella Fisher",
+      "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2"
+    },
+    "guests": [
+      {
+        "name": "Olivia Brown",
+        "avatarUrl": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+      },
+      {
+        "name": "Hannah Lopez",
+        "avatarUrl": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+      }
+    ],
+    "type": "MILKSHAKES",
+    "location": {
+      "name": "Shake Station",
+      "latitude": 50.1109,
+      "longitude": 8.6821
+    },
+    "comments": [
+      {
+        "user": {
+          "name": "Olivia Brown",
+          "avatarUrl": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+        },
+        "timestamp": "2025-02-11T09:40:00Z",
+        "message": "Chocolate all the way!"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "time": "2025-10-11T18:00:00Z",
+    "title": "Fall Beers Celebration",
+    "creator": {
+      "name": "Oliver Crest",
+      "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e"
+    },
+    "guests": [
+      {
+        "name": "David Park",
+        "avatarUrl": "https://images.unsplash.com/photo-1511367461989-f85a21fda167"
+      },
+      {
+        "name": "Daniel Ruiz",
+        "avatarUrl": "https://images.unsplash.com/photo-1527980965255-d3b416303d12"
+      }
+    ],
+    "type": "BEERS",
+    "location": {
+      "name": "Leaf & Lager",
+      "latitude": 42.3601,
+      "longitude": -71.0589
+    },
+    "comments": [
+      {
+        "user": {
+          "name": "David Park",
+          "avatarUrl": "https://images.unsplash.com/photo-1511367461989-f85a21fda167"
+        },
+        "timestamp": "2025-10-10T15:20:00Z",
+        "message": "Fall beers are amazing."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "time": "2025-03-05T16:00:00Z",
+    "title": "Study Coffee Session",
+    "creator": {
+      "name": "Sophia Waters",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb"
+    },
+    "guests": [
+      {
+        "name": "Grace Porter",
+        "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb"
+      },
+      {
+        "name": "Mark Lee",
+        "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e"
+      }
+    ],
+    "type": "COFFEES",
+    "location": {
+      "name": "Caffeine Corner",
+      "latitude": 60.1699,
+      "longitude": 24.9384
+    },
+    "comments": [
+      {
+        "user": {
+          "name": "Grace Porter",
+          "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb"
+        },
+        "timestamp": "2025-03-04T10:00:00Z",
+        "message": "Great study spot!"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "time": "2025-12-18T20:00:00Z",
+    "title": "Holiday Cocktail Bash",
+    "creator": {
+      "name": "Lucas Anderson",
+      "avatarUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce"
+    },
+    "guests": [
+      {
+        "name": "Megan Lee",
+        "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2"
+      },
+      {
+        "name": "Chris Adams",
+        "avatarUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce"
+      }
+    ],
+    "type": "COCKTAILS",
+    "location": {
+      "name": "Frost Lounge",
+      "latitude": 59.9139,
+      "longitude": 10.7522
+    },
+    "comments": [
+      {
+        "user": {
+          "name": "Chris Adams",
+          "avatarUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce"
+        },
+        "timestamp": "2025-12-17T19:00:00Z",
+        "message": "Holiday cocktails sound amazing!"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "time": "2025-07-15T12:00:00Z",
+    "title": "Summer Milkshake Break",
+    "creator": {
+      "name": "Chloe Turner",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d"
+    },
+    "guests": [
+      {
+        "name": "Hannah Lopez",
+        "avatarUrl": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+      },
+      {
+        "name": "Emma West",
+        "avatarUrl": "https://images.unsplash.com/photo-1544725176-7c40e5a2c9f9"
+      }
+    ],
+    "type": "MILKSHAKES",
+    "location": {
+      "name": "Cool Creamery",
+      "latitude": 41.3851,
+      "longitude": 2.1734
+    },
+    "comments": [
+      {
+        "user": {
+          "name": "Emma West",
+          "avatarUrl": "https://images.unsplash.com/photo-1544725176-7c40e5a2c9f9"
+        },
+        "timestamp": "2025-07-14T11:00:00Z",
+        "message": "Perfect for summer!"
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+.wrap {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 12px;
+}
+.btn {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #e6eef8;
+  background: white;
+  cursor: pointer;
+}
+.info {
+  font-size: 14px;
+  color: #475569;
+}

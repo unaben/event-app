@@ -1,0 +1,80 @@
+.card {
+    background: #fff;
+    padding: 14px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(15,23,42,0.04);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .badge {
+    background: #eef2ff;
+    color: #0b5fff;
+    padding: 6px 8px;
+    font-size: 12px;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+  
+  .meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .creator {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .avatar {
+    border-radius: 999px;
+    object-fit: cover;
+  }
+  
+  .creatorName {
+    font-weight: 600;
+  }
+  
+  .time {
+    font-size: 12px;
+    color: #64748b;
+  }
+  
+  .location {
+    font-size: 13px;
+    color: #334155;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .guests {
+    font-weight: 600;
+  }
+  
+  .view {
+    background: #0b5fff;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+  
